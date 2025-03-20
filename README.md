@@ -29,14 +29,13 @@ Claire40 is a split ergonomic keyboard designed with modularity and customizatio
 
 ## Features
 
-- Split ergonomic design
-- Magnetic connections between halves
+- Compact! Unique 40% layout WITH arrow keys!
+- Magnetic connections between halves; one cable for both halves!
 - OLED displays with customizable animations
 - Encoder functionality
 - QMK firmware support
 - RP2040-based controller compatibility
-- Hot-swappable switches
-- Low profile design
+- Fn keys to type numbers using QWERTY.
 
 ## Wiring Guide
 
