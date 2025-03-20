@@ -7,7 +7,7 @@
         <img src="https://github.com/joekusuma/claire40_project/blob/main/pics/end.jpg" alt="Claire40 Keyboard - Completed" width="90%">
       </td>
       <td width="30%" align="center">
-        <img src="https://github.com/joekusuma/claire40_project/blob/main/pics/doggo.gif" alt="Claire40 Keyboard - OLED Animation" width="40%">
+        <img src="https://github.com/joekusuma/claire40_project/blob/main/pics/oled.gif" alt="Claire40 Keyboard - OLED Animation" width="40%">
         <br>
         <em>Emulated OLED</em>
       </td>
