@@ -21,7 +21,7 @@
 </div>
 
 
-A customizable split modular mechanical keyboard with ec11 encoder, OLED displays, and magnetic connections.
+Claire40 is my personal project—a customizable split modular mechanical keyboard featuring an EC11 encoder, OLED displays, and magnetic connections.
 
 ## Overview
 
