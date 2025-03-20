@@ -34,8 +34,8 @@ Claire40 is a split ergonomic keyboard designed with modularity and customizatio
 - Adafruit 4-pin pogo connectors (https://www.adafruit.com/product/5358)
 
 ### Hardware
-- 8× M3 20mm screws
-- 8× M3 heat inserts
+- 16× M3 20mm screws
+- 16× M3 heat inserts
 - 4× 7.5mm neodymium magnets
 - 8× 5.5mm neodymium magnets
 - 1× Acrylic sheet (200mm × 50mm × 2mm) for the back plate
