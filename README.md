@@ -35,7 +35,7 @@ Claire40 is a split ergonomic keyboard designed with modularity and customizatio
 - Encoder functionality
 - QMK firmware support
 - RP2040-based controller compatibility
-- Fn keys to type numbers using QWERTY.
+- Full keyboard functionality! Fn keys to type numbers using QWERTY and Capslock using Tab.
 
 ## Wiring Guide
 
@@ -92,13 +92,13 @@ Claire40 is a split ergonomic keyboard designed with modularity and customizatio
 
 ```
 .---------------------------.
-|  7   |  8   |  9   |  a   |
+|  7   |  8   |  9   | HOME |
 |------+------+------+------|
-|  4   |  5   |  6   |  b   |
+|  4   |  5   |  6   | END  |
 |------+------+------+------|
-|  1   |  2   |  3   |  c   |
+|  1   |  2   |  3   | PGUP |
 |------+------+------+------|
-| shift|  0   |  .   |  d   |
+| SHIFT|  0   |  .   | PGDN |
 '---------------------------'
 ```
 
@@ -220,16 +220,32 @@ The OLED displays show:
 
 ## Customization
 
-### Keymaps
+### Second Layer (Fn)
 
-Edit the `keymap.c` file to customize your layout. The default configuration includes three layers:
+```
+.------------------------------------------------------------------------------------------.
+|  `   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  0   | DEL  | PLAY |
+|------+------+------+------+------+------+------+------+------+------+------+------+------|
+| CAPS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS |  [   |  ]   |  -   |  =   |      | FN2  |
+|------+------+------+------+------+------+------+------+------+------+------+------+------|
+| TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS |  ;   |  \   |  /   | VOL+ | TRNS |      |
+|------+------+------+------+------+------+------+------+------+------+------+------+------|
+| TRNS | TRNS | TRNS |      |      |      | PLAY |      |      |      | PREV | VOL- | NEXT |
+'------------------------------------------------------------------------------------------'
+```
 
-```c
-enum sofle_layers {
-    _QWERTY,
-    _SECONDARY,
-    _FUNC
-};
+### Function Layer (Fn + Shift)
+
+```
+.------------------------------------------------------------------------------------------.
+| ESC  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10  | DEL  | PLAY |
+|------+------+------+------+------+------+------+------+------+------+------+------+------|
+| TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | F11  | F12  |      | TRNS |
+|------+------+------+------+------+------+------+------+------+------+------+------+------|
+| TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | HOME | TRNS |      |
+|------+------+------+------+------+------+------+------+------+------+------+------+------|
+| TRNS | TRNS | TRNS |      |      |      | TRNS |      |      |      | TRNS | END  | TRNS |
+'------------------------------------------------------------------------------------------'
 ```
 
 ### OLED
