@@ -1,7 +1,13 @@
 # Claire40 Split Modular Keyboard
 
-![Claire40 Keyboard - end](https://github.com/joekusuma/claire40_project/blob/main/pics/end.jpg)
-![Claire40 Keyboard - stl](https://github.com/joekusuma/claire40_project/blob/main/pics/stl.jpg)
+<div align="center">
+  <img src="https://i.ibb.co/tp6PbFs/keyboard1.jpg" alt="Claire40 Keyboard - Top View" width="48%">
+  <img src="https://i.ibb.co/Y7JjP0X/keyboard2.jpg" alt="Claire40 Keyboard - Side View" width="48%">
+</div>
+<div align="center">
+  <img src="https://github.com/joekusuma/claire40_project/blob/main/pics/end.jpg" alt="Claire40 Keyboard - Completed" width="48%">
+  <img src="https://github.com/joekusuma/claire40_project/blob/main/pics/stl.jpg" alt="Claire40 Keyboard - STL Files" width="48%">
+</div>
 
 A customizable split modular mechanical keyboard with ec11 encoder, OLED displays, and magnetic connections.
 
