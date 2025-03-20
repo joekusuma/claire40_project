@@ -38,65 +38,7 @@ Claire40 is a split ergonomic keyboard designed with modularity and customizatio
 - Hot-swappable switches
 - Low profile design
 
-## Bill of Materials
-
-### Electronics
-- 2× Elite Pi or any RP2040 microcontroller
-- 2× 0.91" OLED display
-- 1× EC11 rotary encoder
-- 59× 1N4148 diodes
-- 59× Mechanical keyboard switches of your choice
-- Copper wiring for connections
-- Adafruit 4-pin pogo connectors (https://www.adafruit.com/product/5358)
-
-### Hardware
-- 16× M3 20mm screws
-- 16× M3 heat inserts
-- 4× 7.5mm neodymium magnets
-- 8× 5.5mm neodymium magnets
-- 1× Acrylic sheet (200mm × 50mm × 2mm) for the back plate
-
-### Printing Materials
-- PLA filament (recommended for standard use)
-- PETG or ABS filament (optional, for higher durability)
-
-## Build Instructions
-
-### 1. 3D Printing
-
-All STL files are located in the `STL_Files` folder. Print with the following settings for best results:
-- Layer height: 0.16mm
-- Material: PLA (PETG or ABS will also work for higher durability)
-- Infill: 15-20%
-- Supports: Required for case (back)
-
-### 2. Prepare the Case
-
-1. Install M3 heat inserts into the designated holes in the case
-2. Insert the 7.5mm and 5.5mm neodymium magnets into their slots
-3. Cut the acrylic sheet to size and secure it to the bottom of the case
-
-### 3. Wiring
-
-1. Install diodes according to the wiring diagram
-2. Wire the keyboard matrix following the pinout defined in the configuration
-3. Install the OLED displays and connect to the controllers
-4. Mount the rotary encoder and wire to the controllers
-
-### 4. Controller Installation
-
-1. Flash the QMK firmware to both Elite Pi (or RP2040) controllers
-2. Mount the controllers in their designated areas
-3. Install the pogo pin connectors for establishing connections between halves
-
-### 5. Final Assembly
-
-1. Install switches into the switch plate
-2. Connect all components to the controllers
-3. Secure the case together with M3 screws
-4. Test all functions before final assembly
-
-## Wiring Setup
+## Wiring Guide
 
 ### Right Side
 
@@ -160,6 +102,63 @@ All STL files are located in the `STL_Files` folder. Print with the following se
 | shift|  0   |  .   |  d   |
 '---------------------------'
 ```
+
+## Bill of Materials
+
+### Electronics
+- 2× Elite Pi or any RP2040 microcontroller
+- 2× 0.91" OLED display
+- 1× EC11 rotary encoder
+- 59× 1N4148 diodes
+- 59× Mechanical keyboard switches of your choice
+- Copper wiring for connections
+- Adafruit 4-pin pogo connectors (https://www.adafruit.com/product/5358)
+
+### Hardware
+- 16× M3 20mm screws
+- 16× M3 heat inserts
+- 4× 7.5mm neodymium magnets
+- 8× 5.5mm neodymium magnets
+- 1× Acrylic sheet (200mm × 50mm × 2mm) for the back plate
+
+### Printing Materials
+- PLA filament
+
+## Build Instructions
+
+### 1. 3D Printing
+
+All STL files are located in the `STL_Files` folder. Print with the following settings for best results:
+- Layer height: 0.16mm
+- Material: PLA (PETG or ABS will also work for higher durability)
+- Infill: 30-50%
+- Supports: Required for case (back)
+
+### 2. Prepare the Case
+
+1. Install M3 heat inserts into the designated holes in the case
+2. Insert the 7.5mm and 5.5mm neodymium magnets into their slots
+3. Cut the acrylic sheet to size and secure it to the bottom of the case
+
+### 3. Wiring
+
+1. Install diodes according to the wiring diagram
+2. Wire the keyboard matrix following the pinout defined in the configuration
+3. Install the OLED displays and connect to the controllers
+4. Mount the rotary encoder and wire to the controllers
+
+### 4. Controller Installation
+
+1. Flash the QMK firmware to both Elite Pi (or RP2040) controllers
+2. Mount the controllers in their designated areas
+3. Install the pogo pin connectors for establishing connections between halves
+
+### 5. Final Assembly
+
+1. Install switches into the switch plate
+2. Connect all components to the controllers
+3. Secure the case together with M3 screws
+4. Sanding may be required, hot glue may be required to affix OLED and Encoder
 
 ## Firmware Setup
 
