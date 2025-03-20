@@ -184,8 +184,6 @@ You can customize the OLED animations in the `oled_task_user` function in the ke
 
 ## Credits
 
-- Designed by: joekusuma
-- Website: joekusuma.com
 - QMK Firmware: [qmk.fm](https://qmk.fm/)
 
 ## License
